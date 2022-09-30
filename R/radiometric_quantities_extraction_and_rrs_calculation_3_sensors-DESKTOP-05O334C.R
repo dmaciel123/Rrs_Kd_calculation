@@ -3,8 +3,7 @@ radiometric_quantities_extraction_and_rrs_calculation_3_sensors = function(es, l
   require(data.table)
   require(dplyr)
   require(tidyr)
-  require(triosRead)
-  
+
   res = extrai_rrs(lsky = lsky,lw = lw, es = es,ed = es, lu = es, eu = es, dept_ED = depth_ED)
   
   
